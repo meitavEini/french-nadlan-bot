@@ -1,7 +1,7 @@
 import requests
 
-MY_TOKEN = "8897028154:AAFHCa_YAAxjv7GpiKFQeq_zoWXuf3o7Ss0"
-MY_CHAT_ID = "@ImmoAlertsIsrael"
+MY_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+MY_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")"
 
 # שימוש בתגיות HTML נקיות כדי למנוע בעיות תווים בטלגרם
 welcome_message = (
