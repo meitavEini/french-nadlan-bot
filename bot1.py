@@ -95,8 +95,3 @@ if __name__ == "__main__":
         exit(1)
         
     run_automation_loop(MY_TOKEN, MY_CHAT_ID)
-if __name__ == "__main__":
-    MY_TOKEN = "8897028154:AAFHCa_YAAxjv7GpiKFQeq_zoWXuf3o7Ss0"
-    MY_CHAT_ID = "@ImmoAlertsIsrael"
-    
-    run_automation_loop(MY_TOKEN, MY_CHAT_ID)
